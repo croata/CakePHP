@@ -1,0 +1,150 @@
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #000000;
+	background-color: #003D4C;
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#geral{
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+}
+
+#cabecalho{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #F28027;
+	border-bottom: 8px solid #CBCC66;
+	z-index: 2;
+}
+#site{
+	position: relative;
+	width: 100%;
+	margin-top: 140px;
+	margin-bottom: 50px;
+	line-height: 1.5em;
+	z-index: 1;
+	color: #FFF;
+}
+#site a{
+	color: #BCD0F5;
+}
+#site a:hover{
+	color: #003D4C;
+	background-color: #BCD0F5;
+}
+#conteudo{
+	width: 980px;
+	margin: 0 auto;
+}
+#logo-cake{
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/cakephp-logo.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+#topo{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+#menu{
+	width: 400px;
+	padding-top: 58px;
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+}
+#menu ul{
+	float: right;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    width: 130px;
+	height: 40px;
+    float: left;
+    color: #191919;
+    text-align: center;
+    overflow: hidden;
+}
+#menu ul li a{
+    color:#FFF;
+    text-decoration:none;
+}
+#menu ul li p{
+    padding: 10px;
+}
+#menu .subtexto{
+	padding-top: 0;
+	height: 100px;
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#rodape{
+	position: absolute;
+    margin-bottom: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #F28027;
+	border-top: 8px solid #CBCC66;
+}
+#dev{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: right;
+}
+
+.home{
+	background-image: url("../img/inicio.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.evento{
+	background-image: url("../img/evento.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.inscricao{
+	background-image: url("../img/inscricao.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.verde{
+	background: #6AA63B;
+	border: 1px solid #2F6901;
+}
+.amarelo{
+	background: #FBC700;
+	border: 1px solid #C95E0A;
+}
+.vermelho{
+	background: #D52100;
+	border: 1px solid #7A1111;
+}
+.roxo{
+	background: #5122B4;
+	border: 1px solid #1D064D;
+}
+.azul{
+	background: #0292C0;
+	border: 1px solid #0220A8;
+}

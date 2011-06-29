@@ -31,3 +31,9 @@
  * ...and connect the rest of 'Pages' controller's urls.
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+	// Página "evento"
+	Router::connect('/o-evento', array('controller' => 'pages', 'action' => 'display', 'evento'));
+	// Página "inscricao"
+	Router::connect('/inscricao', array('controller' => 'pages', 'action' => 'display', 'inscricao'));
+
